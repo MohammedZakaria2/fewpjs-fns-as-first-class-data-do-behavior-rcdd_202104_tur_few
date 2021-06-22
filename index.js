@@ -10,4 +10,12 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+
+const greet = (timeString) =>{
+//   var d = new Date();
+// var n = d.getHours();
+  if(timeString < 12){
+  return "Good Morinig"
+  }
+}
 /* Write your implementation of displayMessage() */
